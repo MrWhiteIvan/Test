@@ -1,6 +1,7 @@
+import org.bukkit;
 public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
-     // Plugin enable 
- }
+     getServer().getPluginManager().registerEvents(new Listeners(), this);
+  }
 }
