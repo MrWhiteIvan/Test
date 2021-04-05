@@ -1,4 +1,4 @@
-package ru.hyper.test;
+package ru.hyper.test.listeners;
 
 import org.bukkit.ChatColor;
 import org.bukkit.event.Listener;
